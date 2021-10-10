@@ -8,6 +8,7 @@
 - **Name**: {{item.name}}
 - **Website**: {{item.website}}
 - **GitHub_Username**: {{item.github_username}}
+
 {% endfor %}
 
 # effective-adventure
