@@ -1,3 +1,14 @@
+#### Using `include`:
+
+{% include dibya_name_website.md %}
+
+#### Using `site.data`:
+
+{% for item in site.data.dibya %}
+- **Name**: {{item.name}}
+- **Website**: {{item.website}}
+- **GitHub_Username**: {{item.github_username}}
+
 # effective-adventure
 
 Changed
